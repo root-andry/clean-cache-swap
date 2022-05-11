@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ $(id -u) != 0 ]
+then
+	echo "  You need run as root!!!!"
+else
+	echo ">>>>Dropping caches memory....."
+	echo 1 > /proc/sys/vm/drop_caches
+	echo ">>>>wipping swap memory..."
+	swapoff -a && swapon -a
+	clear
+	echo " --Clean caches and swap-- "
+fi
+read -p " Press ENTER key to exit"
+clear
