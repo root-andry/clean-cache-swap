@@ -1,6 +1,7 @@
 ## Script clean memory swap and memory caches used 
 
-### ** installation **
+### installation 
+
 Follow this instructions :
 ``` 
 $ git clone https://github.com/root-andry/clean-cache-swap
