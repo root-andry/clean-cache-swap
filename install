@@ -3,6 +3,6 @@ if [ $(id -u) != 0 ]
 then
 	echo "  You need run as root !!!!"
 else
-    cp clsswap /user/local/sbin/
+    cp clsswap /usr/local/sbin/clsswap
 fi
 
